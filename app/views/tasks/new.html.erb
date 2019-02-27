@@ -1,0 +1,15 @@
+<h1>New task</h1>
+<%= render partial: "form", locals: { task: @task }%>
+<p><%= link_to "Back to list", tasks_path %></p>
+
+<!-- 
+<form action="/restaurants" method="post">
+  <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+  <label for="name">Name: </label>
+  <input type="text" name="restaurant[name]" id="name">
+
+  <label for="address">Address: </label>
+  <input type="text" name="restaurant[address]" id="address">
+
+  <input type="submit">
+</form> -->
